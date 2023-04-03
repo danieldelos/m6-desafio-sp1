@@ -1,7 +1,7 @@
 <h1>Desafio FullStack</h1>
 
 <h2>[201] O sistema deve permitir o cadastro de usuários. </h2>
-<h3>POST - /User</h3>
+<h3>POST - /users</h3>
 
 <strong>Essa rota não necessita autenticação bearer token.</strong>
 
@@ -20,7 +20,7 @@
 <hr noshade />
 
 <h2>[201] O sistema deve permitir a listagem de usuários. </h2>
-<h3>GET - /User</h3>
+<h3>GET - /users</h3>
 
 <strong>Essa rota necessita bearer token. Não há Campos de envio para request</strong>
 
@@ -59,7 +59,7 @@
 <hr noshade />
 
 <h2>[200] O sistema deve permitir Login de usuários. </h2>
-<h3>POST - /Login</h3>
+<h3>POST - /login</h3>
 
 <strong>Essa rota não necessita autenticação bearer token.</strong>
 
@@ -129,7 +129,7 @@
 </pre>
 <hr noshade />
 
-<h2>[200] O sistema deve permitir atualização de usuários. </h2>
+<h2>[200] O sistema deve permitir atualização de contatos. </h2>
 <h3>PATCH - /contacts/id</h3>
 
 <strong>Essa rota necessita autenticação bearer token.</strong>
@@ -269,7 +269,7 @@
 </pre>
 <hr noshade />
 
-<h2>[204] O sistema deve permitir deletar um usuários. </h2>
+<h2>[204] O sistema deve permitir deletar um contato. </h2>
 <h3>DELETE - /contacts/id</h3>
 
 <strong>Essa rota necessita autenticação bearer token.</strong>
