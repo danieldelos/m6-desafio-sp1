@@ -148,7 +148,6 @@
 </pre>
 <hr noshade />
 
-
 <h2>[201] O sistema deve permitir a listagem de contatos. </h2>
 <h3>GET - /contacts</h3>
 
@@ -216,56 +215,38 @@
 
 <p>Retorno esperado com status code <strong style="color:LimeGreen;font-size:18px">201</strong> para listagem realizada com sucesso:</p>
 <pre>
-[
-	{
-		"id": 125,
-		"contactName": "MAIK HENRIQUE SOUSA - MG",
-		"contactEmail": "maik.sousa@agrocontar.com.br",
-		"contactPhone": "1234567890",
-		"createAt": "2023-04-02T15:55:03.714Z",
-		"user": {
-			"name": "daniel",
-			"email": "daniel@Kenzie.com.br",
-			"phone": "9999",
-			"id": 12,
-			"createdAt": "2023-03-25T14:29:31.236Z",
-			"updatedAt": "2023-03-27T15:23:59.134Z",
-			"deletedAt": null
+{
+	"name": "daniel",
+	"email": "daniel@Kenzie.com.br",
+	"phone": "9999",
+	"id": 12,
+	"createdAt": "2023-03-25T14:29:31.236Z",
+	"updatedAt": "2023-03-27T15:23:59.134Z",
+	"deletedAt": null,
+	"contacts": [
+		{
+			"id": 121,
+			"contactName": "MAIK HENRIQUE SOUSA - SP",
+			"contactEmail": "apeiron52@gmail.com",
+			"contactPhone": "44444",
+			"createAt": "2023-04-02T15:30:23.688Z"
+		},
+		{
+			"id": 123,
+			"contactName": "daniel barbosa da silva",
+			"contactEmail": "apeiron52@gmail.com",
+			"contactPhone": "213141",
+			"createAt": "2023-04-02T15:45:47.296Z"
+		},
+		{
+			"id": 124,
+			"contactName": "contato28",
+			"contactEmail": "contato14@kenzie.com.br",
+			"contactPhone": "8888",
+			"createAt": "2023-04-02T15:48:15.722Z"
 		}
-	},
-	{
-		"id": 123,
-		"contactName": "daniel barbosa da silva",
-		"contactEmail": "apeiron52@gmail.com",
-		"contactPhone": "0123456789",
-		"createAt": "2023-04-02T15:45:47.296Z",
-		"user": {
-			"name": "daniel",
-			"email": "daniel@Kenzie.com.br",
-			"phone": "9999",
-			"id": 12,
-			"createdAt": "2023-03-25T14:29:31.236Z",
-			"updatedAt": "2023-03-27T15:23:59.134Z",
-			"deletedAt": null
-		}
-	},
-	{
-		"id": 121,
-		"contactName": "MAIK HENRIQUE SOUSA - SP",
-		"contactEmail": "apeiron52@gmail.com",
-		"contactPhone": "44444",
-		"createAt": "2023-04-02T15:30:23.688Z",
-		"user": {
-			"name": "daniel",
-			"email": "daniel@Kenzie.com.br",
-			"phone": "9999",
-			"id": 12,
-			"createdAt": "2023-03-25T14:29:31.236Z",
-			"updatedAt": "2023-03-27T15:23:59.134Z",
-			"deletedAt": null
-		}
-	}
-]
+	]
+}
 </pre>
 <hr noshade />
 
