@@ -22,7 +22,7 @@
 <h2>[201] O sistema deve permitir a listagem de usuários. </h2>
 <h3>GET - /users</h3>
 
-<strong>Essa rota necessita bearer token. Não há Campos de envio para request</strong>
+<strong>Essa rota necessita de autenticação bearer token. Não há Campos de envio para request</strong>
 
 <p>Retorno esperado com status code <strong style="color:LimeGreen;font-size:18px">201</strong> para listagem realizada com sucesso:</p>
 <pre>
@@ -93,7 +93,7 @@
 <h2>[204] O sistema deve permitir deletar um usuários. </h2>
 <h3>DELETE - /users/id</h3>
 
-<strong>Essa rota necessita autenticação bearer token.</strong>
+<strong>Essa rota necessita de autenticação bearer token.</strong>
 
 <p>Retorno esperado com status code <strong style="color:LimeGreen;font-size:18px">201</strong> para criação realizada com sucesso:</p>
 <pre>
@@ -132,7 +132,7 @@
 <h2>[200] O sistema deve permitir atualização de contatos. </h2>
 <h3>PATCH - /contacts/id</h3>
 
-<strong>Essa rota necessita autenticação bearer token.</strong>
+<strong>Essa rota necessita de autenticação bearer token.</strong>
 
 <p>Retorno esperado com status code <strong style="color:LimeGreen;font-size:18px">201</strong> para atualização realizada com sucesso:</p>
 <pre>
@@ -211,7 +211,7 @@
 <h2>[201] O sistema deve permitir a listagem de contatos por id. </h2>
 <h3>GET - /contacts/users/id</h3>
 
-<strong>Essa rota necessita bearer token. Não há Campos de envio para request</strong>
+<strong>Essa rota necessita de autenticação bearer token. Não há Campos de envio para request</strong>
 
 <p>Retorno esperado com status code <strong style="color:LimeGreen;font-size:18px">201</strong> para listagem realizada com sucesso:</p>
 <pre>
